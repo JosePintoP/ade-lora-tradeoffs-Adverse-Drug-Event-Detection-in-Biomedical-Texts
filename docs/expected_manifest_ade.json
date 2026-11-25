@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "ade": {
+      "seed": 42,
+      "split_fractions": [
+        0.675,
+        0.075,
+        0.25
+      ]
+    }
+  },
+  "files": {
+    "ade": [
+      {
+        "path": "ade/train.jsonl",
+        "sha256": "c4935dbcc3d85d16e2038781a873b2a68b5c436d3949bbb57522b31414ee3ac8",
+        "n_records": 14148
+      },
+      {
+        "path": "ade/val.jsonl",
+        "sha256": "0dc5be5ccaf02449eb55aae0047e6e0e67df6067f77278c382fa92c2282ede39",
+        "n_records": 1572
+      },
+      {
+        "path": "ade/test.jsonl",
+        "sha256": "57a7169cf5dacdb8afe1673bb186991ab4f47a54a983aa846316e004660d78ad",
+        "n_records": 5240
+      }
+    ]
+  }
+}

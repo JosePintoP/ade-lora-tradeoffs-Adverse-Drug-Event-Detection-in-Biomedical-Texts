@@ -1,0 +1,11 @@
+# Python >= 3.11
+# Versions are not pinned yet: pin them to the ones of the environment used for the paper.
+# Install PyTorch with CUDA support first (https://pytorch.org/get-started/locally/).
+torch
+transformers
+peft
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib

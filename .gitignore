@@ -1,0 +1,38 @@
+# Corpus, processed data and predictions (contain corpus text; not redistributed)
+data/
+*.jsonl
+*.rel
+ADE-NEG.txt
+
+# Generated outputs (aggregated paper results live in results/)
+outputs/
+*.log
+log_*.txt
+
+# Model weights and caches
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+.cache/
+
+# Python, notebooks, editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.token
+
+# Manuscripts
+*.docx
+*.pdf
+*.rar
+*.zip

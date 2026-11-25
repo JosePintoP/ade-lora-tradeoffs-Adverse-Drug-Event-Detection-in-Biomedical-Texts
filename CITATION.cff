@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code for: Performance–Efficiency Trade-Offs of Full Fine-Tuning and Low-Rank Adaptation for Adverse Drug Event Detection in Biomedical Texts"
+type: software
+authors:
+  - family-names: "Figueroa Iturrieta"
+    given-names: "Rosa L."
+    affiliation: "Universidad de Concepción"
+  - family-names: "Pinto"
+    given-names: "José I."
+    affiliation: "Universidad de Concepción"
+  - family-names: "Figueroa Toro"
+    given-names: "Miguel E."
+    affiliation: "Universidad de Concepción"
+  - family-names: "Flores"
+    given-names: "Christopher A."
+    affiliation: "Universidad del Bío-Bío"

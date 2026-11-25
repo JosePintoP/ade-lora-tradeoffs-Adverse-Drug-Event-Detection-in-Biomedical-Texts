@@ -1,0 +1,9 @@
+Metric,Full fine-tuning BERT,Full fine-tuning BioBERT,LoRA BERT,LoRA BioBERT
+F1-score (class 0),0.96,0.97,0.96,0.97
+F1-score (class 1),0.83,0.87,0.83,0.87
+Precision (class 0),0.95,0.96,0.96,0.97
+Precision (class 1),0.85,0.90,0.83,0.86
+Recall (class 0),0.96,0.98,0.96,0.96
+Recall (class 1),0.81,0.84,0.83,0.89
+Training time,9:54 min,10:01 min,4:24 min,4:19 min
+"Peak VRAM (training, allocated)",2.25 GB,2.25 GB,0.92 GB,0.92 GB

@@ -1,0 +1,18 @@
+Metric,Full fine-tuning BERT,Full fine-tuning BioBERT,LoRA BERT,LoRA BioBERT
+F1-score (O),0.98,0.98,0.98,0.98
+F1-score (B-DRUG),0.94,0.97,0.94,0.96
+F1-score (I-DRUG),0.89,0.95,0.89,0.92
+F1-score (B-EFFECT),0.83,0.86,0.83,0.85
+F1-score (I-EFFECT),0.86,0.88,0.86,0.88
+Precision (O),0.98,0.98,0.98,0.98
+Precision (B-DRUG),0.92,0.95,0.92,0.93
+Precision (I-DRUG),0.92,0.95,0.93,0.97
+Precision (B-EFFECT),0.80,0.83,0.80,0.82
+Precision (I-EFFECT),0.88,0.89,0.89,0.89
+Recall (O),0.97,0.98,0.98,0.98
+Recall (B-DRUG),0.97,0.98,0.97,0.98
+Recall (I-DRUG),0.86,0.95,0.86,0.87
+Recall (B-EFFECT),0.87,0.89,0.86,0.89
+Recall (I-EFFECT),0.83,0.88,0.83,0.88
+Training time,4:10 min,4:12 min,1:48 min,1:54 min
+"Peak VRAM (training, allocated)",2.20 GB,2.20 GB,0.88 GB,0.88 GB
