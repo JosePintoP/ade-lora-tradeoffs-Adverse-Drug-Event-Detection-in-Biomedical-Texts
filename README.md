@@ -41,13 +41,14 @@ use the corpus, cite its authors (Gurulingappa et al.; see the reference list of
 
 ## Requirements
 
-- Python 3.11 or later
+- Python 3.11 (the paper used 3.11.17); exact package versions are listed in `requirements.txt`
 - An NVIDIA GPU with CUDA. The paper used a GeForce RTX 2050 (4 GB) with 8 GB of RAM.
 
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate      Linux/macOS: source .venv/bin/activate
-# 1) install PyTorch with CUDA support following https://pytorch.org/get-started/locally/
+# 1) install PyTorch with CUDA 12.6 support, as used in the paper
+pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu126
 # 2) install the remaining dependencies
 pip install -r requirements.txt
 ```
@@ -131,7 +132,3 @@ The paper is under review; the full reference will be added upon publication. Un
 
 ANID BECAS/DOCTORADO NACIONAL, Grant 21240959; Universidad de Concepción, VRID Project
 2026001612INV; Universidad del Bío-Bío, FAPEI Project FP2629439.
-
-## License
-
-To be defined by the authors.

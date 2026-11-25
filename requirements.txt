@@ -1,11 +1,11 @@
-# Python >= 3.11
-# Versions are not pinned yet: pin them to the ones of the environment used for the paper.
-# Install PyTorch with CUDA support first (https://pytorch.org/get-started/locally/).
-torch
-transformers
-peft
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
+# Versions of the direct dependencies used for the paper (Python 3.11.17).
+# The paper used the CUDA 12.6 build of PyTorch (2.14.1+cu126); install it first:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1
+transformers==5.19.0
+peft==0.21.3
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
